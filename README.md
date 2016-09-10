@@ -2,7 +2,7 @@
 
 ## Mac OSX
 
-# https://www.rabbitmq.com/install-homebrew.html
+https://www.rabbitmq.com/install-homebrew.html
 ```
 brew update
 brew install rabbitmq
@@ -12,7 +12,7 @@ echo "PATH=$PATH:/usr/local/sbin" >> ~/.bash_profile
 
 ## Editing .conf
 
-# http://www.rabbitmq.com/configure.html
+http://www.rabbitmq.com/configure.html
 ```
 # /usr/local/etc/rabbitmq/rabbitmq-env.conf
 CONFIG_FILE=/usr/local/etc/rabbitmq/rabbitmq
@@ -42,6 +42,11 @@ rabbitmq-server
 ## Management Plugin
 
 #### https://www.rabbitmq.com/management.html
-URL: http://localhost:15672
 
-guest:guest
+| URL | 
+| --- |
+| http://localhost:15672 |
+
+| USER | PASS |
+| --- | --- |
+| `guest` | `guest` |
