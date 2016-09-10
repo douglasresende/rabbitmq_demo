@@ -15,3 +15,4 @@ q.subscribe(:block => true) do |delivery_info, properties, body|
   sleep body.count(".").to_i
   puts " [x] Done"
 end
+

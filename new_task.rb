@@ -14,3 +14,4 @@ q.publish(msg, :persistent => true)
 puts " [x] Sent #{msg}"
 
 conn.close
+
