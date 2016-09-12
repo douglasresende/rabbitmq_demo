@@ -1,6 +1,12 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 
+#
+# THIS FILE NEED KEEP RUNNING TO WORK
+#
+# TO RUN THIS FILE:
+# ruby receive_logs_direct.rb warning error
+
 require "bunny"
 
 if ARGV.empty?
